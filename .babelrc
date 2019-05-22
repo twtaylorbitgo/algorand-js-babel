@@ -1,0 +1,4 @@
+{
+   "plugins": ["syntax-trailing-function-commas"],
+   "presets": [ "es2015", "stage-0", "stage-1", "stage-2" ]
+}
