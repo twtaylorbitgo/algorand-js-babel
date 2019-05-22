@@ -1,0 +1,19 @@
+{
+  "name": "algorand-js-sdk-babelfied",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel --presets node6 index.js -o build/algosdk-babel.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "algosdk": "^1.1.1",
+    "babel-preset-node6": "^11.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
