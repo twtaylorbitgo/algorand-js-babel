@@ -4,7 +4,7 @@
   "description": "This is a soft fork of algosdk targetting node 6 builds",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./node_modules/algosdk/src --out-dir build/",
+    "build": "babel ../algosdk/src --out-dir build/",
     "test": "node tests/test.js",
     "postinstall": "npm run build"
   },
@@ -16,8 +16,8 @@
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.0",
-    "@babel/plugin-transform-async-to-generator": "^7.4.4",
     "@babel/preset-env": "^7.4.2",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
     "babel-minify": "^0.5.0",
     "browserify": "^16.2.3"
   }
