@@ -7,7 +7,7 @@
     "build": "babel ./node_modules/algosdk/src --out-dir build/",
     "buildBabel": "browserify build/main.js -s algosdk | minify --simplify --mangle.keepClassName --deadcode.keepFnArgs --mangle.keepFnName --comments false --outFile dist/algosdk.babel.min.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "post_install": "npm run build"
+    "install": "npm run build"
   },
   "author": "",
   "license": "ISC",
