@@ -1,7 +1,7 @@
 # Building
 
 ```
-npm run babel
+npm run build
 ```
 
 # Including node client
