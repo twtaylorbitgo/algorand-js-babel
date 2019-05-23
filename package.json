@@ -4,9 +4,9 @@
   "description": "This is a soft fork of algosdk targetting node 6 builds",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/@babel/cli/bin/babel.js ./node_modules/algosdk/src --out-dir build/",
+    "build": "babel ./node_modules/algosdk/src --out-dir build/",
     "test": "node tests/test.js",
-    "install": "npm run build"
+    "postinstall": "npm run build"
   },
   "author": "",
   "license": "ISC",
