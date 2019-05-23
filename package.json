@@ -4,9 +4,8 @@
   "description": "This is a soft fork of algosdk targetting node 6 builds",
   "main": "index.js",
   "scripts": {
-    "build": "babel ./node_modules/algosdk/src --out-dir build/",
-    "buildBabel": "browserify build/main.js -s algosdk | minify --simplify --mangle.keepClassName --deadcode.keepFnArgs --mangle.keepFnName --comments false --outFile dist/algosdk.babel.min.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/@babel/cli/bin/babel.js ./node_modules/algosdk/src --out-dir build/",
+    "test": "node tests/test.js",
     "install": "npm run build"
   },
   "author": "",
