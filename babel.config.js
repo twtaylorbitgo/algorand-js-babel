@@ -10,18 +10,12 @@ module.exports = function (api) {
                         "node": "6.12.3"
                     },
                     "debug": true,
-                    //"include": "/node_modules/algosdk/",
-                    "exclude": [ /node_modules/ ],
-                    "useBuiltIns": "entry"
-
                 }
             ]
         ]
     ;
-    const plugins = [ ];
-  
+    
     return {
-      presets,
-      plugins
+      presets
     };
   }
