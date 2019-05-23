@@ -1,1 +1,2 @@
-module.exports = require('./dist/algosdk.babel.min');
+
+module.exports = require('./build/main');

@@ -10,6 +10,7 @@ module.exports = function (api) {
                         "node": "6.12.3"
                     },
                     "debug": true,
+                    "modules": "commonjs"
                 }
             ]
         ]
