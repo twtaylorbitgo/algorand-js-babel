@@ -1,7 +1,7 @@
 {
-  "name": "algorand-js-babel",
+  "name": "algosdk-node6",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a soft fork of algosdk targetting node 6 builds",
   "main": "index.js",
   "scripts": {
     "build": "babel ./node_modules/algosdk/src --out-dir build/",
